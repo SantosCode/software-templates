@@ -20,7 +20,7 @@ spec:
         - java_package_name
       properties:
         component_id:
-          title: Name
+          title: Nome da aplicação
           type: string
           description: Unique name of the component
           ui:field: EntityNamePicker
@@ -29,7 +29,7 @@ spec:
           type: string
           description: Name for the java package. eg (io.backstage.blah)
         description:
-          title: Description
+          title: Descrição
           type: string
           description: Help others understand what this website is for.
         owner:
